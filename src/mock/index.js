@@ -8,7 +8,7 @@ function CreateMessage(id = mockjs.Random.id()) {
   // 消息类型（text:文本; pic:图片; system:系统消息）
   let type = mockjs.Random.pick(['text', 'pic', 'system'])
   let content = mockjs.Random.cparagraph()
-  // let content = `笔试题目：写一个类似微信的渲染消息流的组件，
+  // let content = `类似微信的渲染消息流的组件，
   // 支持不同类型：1.文本 2.图片 3.系统消息，如加某个人到群组里，撤销消息；<br>
   // 要求考虑可扩展性，具体UI可以简单实现。<br>
   // Tips：<br>
